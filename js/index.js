@@ -1,6 +1,3 @@
-// import jsonp from 'jsonp'
-// const cityEndpoint = 'https://api.openaq.org/v1/cities'
-// const countryEndpoint = 'https://api.openaq.org/v1/countries'
 const measuresEndpoint = 'https://api.openaq.org/v1/measurements'
 const wikiEndpoint = 'https://www.wikipedia.org/w/api.php'
 

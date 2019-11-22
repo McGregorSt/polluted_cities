@@ -6,38 +6,29 @@ body {
   
 }
 .container {
-  /* width: 1400px; */
   margin: auto;
   display: flex;
-  
 }
 header {
-  /* min-height: 1400px; */
   width: 25%;
 }
-
 .countryInput {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
 }
-
 .search {
   width: 70%;
   height: 50px;
   outline: none;
-  /* background-color: rgb(220, 255, 255); */
   background-color: rgb(150, 192, 192);
   border: 10px solid rgb(67, 75, 75);
   font-size: 18px;
   text-align: center;
   margin-top: 20px;
-  
 }
 .search:focus {
   background-color: rgba(182, 231, 231, 0.842);
-  
 }
 .searchMatches {
   width: 73%;
@@ -80,7 +71,6 @@ main h1 {
   margin: 5px 15px;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   background-color: rgb(150, 192, 192);
   transition: ease-in-out 0.5s;
 }
@@ -94,7 +84,6 @@ main h1 {
   justify-content: space-between;
   text-align: center;
   padding: 10px 0 0 0;
-
 }
 .cityDesc {
   display: none;
