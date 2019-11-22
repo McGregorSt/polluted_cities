@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
-    <header>
-      <form class='cityInput'>
-        <label>Search city:</label>
-        <input  type='text' />
-      </form>
-    </header>
-    <main></main>
-    <footer></footer>
+    <div class="container">
+      <header>
+        <form class="countryInput">
+          <input class="search" type="text" placeholder="Type a country" />
+          <ul class="searchMatches"></ul>
+        </form>
+      </header>
+      <main>
+        <div class="mainView">
+          <ul class="cityList"></ul>
+        </div>
+      </main>
+      <footer></footer>
+    </div>
   </body>
-  <script src='js/index.js' ></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="js/index.js"></script>
 </html>
